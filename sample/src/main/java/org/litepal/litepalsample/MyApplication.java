@@ -7,7 +7,7 @@ import org.litepal.LitePalApplication;
 public class MyApplication extends Application{
 
     @Override
-    public void onCreate() {
+    public void onCreate()  {
         super.onCreate();
         LitePalApplication.initialize(this);
     }
